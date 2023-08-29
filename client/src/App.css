@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid black;
+    padding: 20px 10px;
+    gap: 30px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.main-content h1 {
+    margin-bottom: 10px;
+}
+
+.form-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-task input {
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.btn-task {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.btn-task:disabled {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+}

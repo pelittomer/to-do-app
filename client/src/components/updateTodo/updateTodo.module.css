@@ -1,0 +1,19 @@
+.container {
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+}
+
+.container button {
+    border: none;
+    padding: 5px 12px;
+    border-radius: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.container input {
+    padding: 5px 8px;
+    border-radius: 8px;
+
+}

@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.titles {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.titles h3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
